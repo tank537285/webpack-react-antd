@@ -39,7 +39,7 @@ export function fetchPostsIfNeeded(subreddit) {
     // 注意这个函数也接收了 getState() 方法
     // 它让你选择接下来 dispatch 什么。
 
-    // 当缓存的值是可用时，
+    // 当缓存的值是可用时
     // 减少网络请求很有用。
 
     return (dispatch, getState) => {
