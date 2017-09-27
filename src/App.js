@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 // import Footer from './components/Footer'
 // import AddTodo from './container/AddTodo'
+import OcjTitleBar from './components/ocjTitleBar/OcjTitleBar'
 import VisibleTodoList from './container/VisibleTodoList'
 class App extends Component {
     static defaultProps = {
@@ -29,6 +30,7 @@ class App extends Component {
   render() {
     return (
         <div>
+            <OcjTitleBar></OcjTitleBar>
             <VisibleTodoList/>
         </div>
     );

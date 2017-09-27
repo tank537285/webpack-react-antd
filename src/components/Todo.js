@@ -4,7 +4,7 @@
  */
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-
+import ImageLoader from './ImageLoader';
 class Todo extends Component {
     static defaultProps = {
         ...Component.defaultProps,
@@ -31,6 +31,11 @@ class Todo extends Component {
                 }}
             >
                 {this.props.text}
+                <div style={{width:200,height:200}}>
+                    <ImageLoader
+                        src={"http://cdnimg.ocj.com.cn/image_site/event/eventitem/htmlmake/upload_c068a1a01653c9c6c2bc9eed50b0ad9a.jpg"}
+                    />
+                </div>
             </li>
         );
     }

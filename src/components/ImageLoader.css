@@ -1,0 +1,8 @@
+.imageLoader-appear {
+    opacity: 0;
+}
+
+.imageLoader-appear.imageLoader-appear-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
